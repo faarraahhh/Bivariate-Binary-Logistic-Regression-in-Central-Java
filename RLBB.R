@@ -1,6 +1,6 @@
 library(readxl)
 
-data <- read_excel("D:/Farah_kuliah/smt 7/proposal skripsi/data.xlsx", 
+data <- read_excel("data/sakernas_2024.xlsx", 
                    sheet = "Sheet5")
 View(data)
 str(data)
