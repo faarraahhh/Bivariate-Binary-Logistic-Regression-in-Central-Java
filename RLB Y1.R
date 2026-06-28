@@ -4,7 +4,7 @@ library(pscl)
 library(car)
 
 
-data <- read_excel("D:/Farah_kuliah/smt 7/skripsi/data percobaan - Copy.xlsx", 
+data <- read_excel("D:/Farah_kuliah/smt 7/skripsi/data.xlsx", 
     sheet = "Sheet5")
 View(data)
 str(data)
